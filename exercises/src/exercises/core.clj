@@ -1,6 +1,4 @@
-(ns exercises.core)
+(defn square [x]
+  (* x x))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(square 4)
