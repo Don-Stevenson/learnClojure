@@ -13,6 +13,7 @@
                          (swap! state update :counter inc))}
     "+1"]])
 
+(+ 1 1)
 (defn render! []
   (rdom/render
     [app-view]
