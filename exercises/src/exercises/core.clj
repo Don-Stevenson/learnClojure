@@ -2,11 +2,10 @@
 ;; the arguments you're passing in goes inside square brackets
 ;; then put the function with in ()
 ;; no need to return anything, last line is implicited returned
-(defn cube [x, y]
-  (+ x y)
-  (* x x y))
+(defn cube [x]
+  (* x x x))
 
-(cube 1, 2)
+(cube 2)
 
 ;; ctrl alt c  then space      evaluate the highlighted form () * most useful
 ;; 
