@@ -1,7 +1,12 @@
-(defn square [x]
-  (* x x))
+;; use defn instead of let or const, then give it a name.
+;; the arguments you're passing in goes inside square brackets
+;; then put the function with in ()
+;; no need to return anything, last line is implicited returned
+(defn cube [x, y]
+  (+ x y)
+  (* x x y))
 
-(square 4)
+(cube 1, 2)
 
 ;; ctrl alt c  then space      evaluate the highlighted form () * most useful
 ;; 
