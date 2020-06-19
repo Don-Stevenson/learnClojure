@@ -1,3 +1,6 @@
+;; Result of pair programming with Marco and Chris June 19 2020
+;; ************************************************************
+
 (defn dice10 [x]
   (->> x
        (rand-int)
