@@ -1,6 +1,7 @@
 ;;Refactor the below code to use a single cond instead of multiple ifs.
 
 ;;Also, consider re-ordering the conditionals to simplify the logic.
+;;******************************************************************
 
 ;(defn process-value
  ; [value]
