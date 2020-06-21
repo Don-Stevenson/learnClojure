@@ -35,6 +35,9 @@
    \y 4
    \z 10})
 
+;; take in the word, go through it and 
+;; map each letter to the points object above, add the values using apply
+;; **********************************************************************
 (defn score
   [word]
   (->> word
