@@ -1,8 +1,9 @@
 ;;scrabble score
-;;Mark as Finished
-;;Implement a function score that calculates the scrabble score for a given word.
+;;Implement a function score that calculates 
+;;the scrabble score for a given word.
 
 ;;Use google to find out how much each letter is worth.
+;;*****************************************************
 
 
 ;; setup points 
