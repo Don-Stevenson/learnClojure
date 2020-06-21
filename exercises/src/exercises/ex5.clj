@@ -7,8 +7,6 @@
 ;;but (max [1 2 3]) does not.
 ;;*****************************************************************
 
-
-
 ;; largest is a function that returns 
 ;; the largest number in an array
 (defn largest [nums]
