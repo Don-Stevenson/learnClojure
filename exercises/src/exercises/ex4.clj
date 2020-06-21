@@ -1,3 +1,8 @@
+;;Write a function clamp to restrict a value to a given range:
+
+;;(defn clamp [x min max])
+;;***********************************************************
+
 (defn clamp
   [x min max]
   (cond
