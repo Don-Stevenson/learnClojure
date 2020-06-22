@@ -19,8 +19,8 @@
   (cond (not (triangle? a b c)) :invalid
         (= a b c) :equilateral
         (or (= a b) (= b c) (= c a)) :isosceles
-        (or (= (* c c) (+ (* a a) (* b b)))) :right-Triangle
+        (or (= (* c c) (+ (* a a) (* b b)))) :right-triangle
         :else
         :scalene))
 
-(classifyTriangle  4 3 5)
+(classifyTriangle  4 4 4)
