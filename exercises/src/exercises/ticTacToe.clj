@@ -1,3 +1,6 @@
+;; Given problem
+;; *************
+
 ;;#_( Devise a data model to represent a game of tic-tac-toe.
 
 ;;For example, describe a game whose board currently looks like the below:
