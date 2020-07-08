@@ -16,12 +16,12 @@
 
 ;;Pair Programming solution with Elizabeth and Don
 ;;************************************************
-(defn reverse-text 
- [file]
+(defn reverse-text
+  [file]
   (->> (slurp file)
-  (reverse)
-  (apply str)
-       (spit "rev-blurp.txt")))
+       (reverse)
+       (apply str)
+       (spit (str "rev-" file))))
 
 (reverse-text "text.txt")
 
