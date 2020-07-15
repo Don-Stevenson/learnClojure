@@ -17,11 +17,11 @@
 ;;Pair Programming solution with Elizabeth and Don
 ;;************************************************
 (defn reverse-text
-  [file]
-  (->> (slurp file)
+  [fileName]
+  (->> (slurp fileName)
        (reverse)
        (apply str)
-       (spit (str "rev-" file))))
+       (spit (str "rev-" fileName))))
 
 (reverse-text "text.txt")
 
