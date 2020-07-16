@@ -17,7 +17,7 @@
       (update-in [:people id :points] + points)))
 
 
-(def data {:people {1 {:name "james"
+(def data {:people {1 {:name "jamesC"
                        :points 1}
                     2 {:name "rafd"
                        :points 5}}})
